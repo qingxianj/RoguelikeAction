@@ -51,6 +51,13 @@ Each system gets a short write-up here once it works: how it is designed, why, w
 | --- | --- | --- |
 | _none yet_ | | |
 
+## Working with AI
+
+AI tools (Claude Code, Codex) help with this project. Core gameplay systems are designed and
+first-drafted by hand; AI reviews them. Rules for agents are in [AGENTS.md](AGENTS.md), and
+[docs/AI_COLLAB_LOG.md](docs/AI_COLLAB_LOG.md) records what each AI produced, what it got wrong,
+and how it was verified.
+
 ## API keys
 
 The AI config generator reads its API key from an environment variable or a `*.local.json` file. Both are git-ignored. Never commit keys.
